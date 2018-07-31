@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+  .nav-wrapper {
+    margin-top:0 !important;
+  }
+
+}
