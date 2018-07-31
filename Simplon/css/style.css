@@ -22,9 +22,13 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+h2{
+  font-size: 2em;
+  font-weight: bold;
+}
 
 .nav-wrapper, nav{
-  margin-top: 800px;
+  margin-top: 500px;
   height: 100px !important;
 }
 
@@ -36,7 +40,9 @@
 
 .row{
   text-align: center;
-
+}
+.row p{
+  text-align: justify;
 }
 .row .col{
   height: 450px;
@@ -44,7 +50,7 @@
   flex-wrap: wrap;
 }
 .slider{
-  height: 800px !important;
+  height: 500px !important;
 }
 .right a{
   line-height: 100px;
