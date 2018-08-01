@@ -1,6 +1,14 @@
 @media only screen and (max-width: 600px) {
-  .nav-wrapper {
+  .nav-wrapper,nav {
     margin-top:0 !important;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+  .nav-wrapper img {
+    width: 80px;
+    height: 60px;
   }
 
 }
