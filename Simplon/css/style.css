@@ -72,9 +72,15 @@ header{
   top: 0;
   right: 0;
 }
-h3, h5, .simplon {
+ .simplon {
   color: #e80041;
-  text-shadow: 1px 1px 1px white;
+  text-shadow: 1px 1px 1px #35345b ;
+}
+
+h3, h5{
+  border-radius: 20px;
+  color:#e80041;
+  text-shadow: 2px 2px 1px white;
 }
 .slider .indicators .indicator-item.active {
   background-color: #35345b !important;
@@ -156,7 +162,6 @@ h4 {
   position: relative;
   margin: auto;
   margin-top: 25px;
-  border: 2px solid black;
   border-radius: 15px;
   width: 230px;
   height: 150px;
@@ -199,7 +204,6 @@ html{
   filter:brightness(1.75);
 }
 
-
 #row2{
   position: relative;
   background-image: url("../img/image2.jpg");
@@ -233,6 +237,18 @@ html{
   mix-blend-mode:difference;
   filter: opacity(0.4);
 }
+
+
+#row1, #row2,#row3,#row4{
+  transition: 0.7s ease-in;
+}
+
+#row1:hover, #row2:hover,#row3:hover,#row4:hover{
+}
+
+
+
+
 /*********************************************************************/
 .smooth{
   position: absolute;
