@@ -23,6 +23,9 @@
   .smooth{
     display: block;
   }
+  .simplon-nav{
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 430px) {

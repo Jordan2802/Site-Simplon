@@ -44,7 +44,15 @@ header{
 }
 
 /*************************************** header**************************/
-
+.simplon-nav{
+  position: absolute;
+  font-size: 2em;
+  color: white;
+  top:4vh;
+  right: 10px;
+  z-index: 222;
+  display: none;
+}
 .slider {
   height: 90vh !important;
 }
@@ -124,7 +132,7 @@ ul#mobile-demo.sidenav a{
   color: #f3f3f3;
 }
 ul#mobile-demo.sidenav a:hover,ul#mobile-demo.sidenav a:focus{
-  background:linear-gradient(40deg, #35345b,#e80041);;
+  background:linear-gradient(40deg, #e80041,#f3f3f3);
   border: 1px solid rgba(0,0,0,0.5);
 }
 
@@ -243,8 +251,7 @@ html{
   transition: 0.7s ease-in;
 }
 
-#row1:hover, #row2:hover,#row3:hover,#row4:hover{
-}
+
 
 
 
