@@ -228,7 +228,7 @@ html {
   background-size: cover;
 }
 
-.row1-cover {
+.row1-cover:hover {
   background: linear-gradient( #e80041, #35345b);
   mix-blend-mode: color;
   filter: brightness(1.75);
@@ -241,7 +241,7 @@ html {
   background-size: cover;
 }
 
-.row2-cover {
+.row2-cover:hover  {
   background: repeating-linear-gradient(40deg, #35345b, #35345b 20px, #e80041 200px, #e80041 200px);
   mix-blend-mode: color;
   filter: sepia();
@@ -254,7 +254,7 @@ html {
   background-size: cover;
 }
 
-.row3-cover {
+.row3-cover:hover  {
   background: linear-gradient( #e80041, #35345b);
   mix-blend-mode: soft-light;
   filter: brightness(1.50);
@@ -267,7 +267,7 @@ html {
   background-size: cover;
 }
 
-.row4-cover {
+.row4-cover:hover  {
   background: repeating-linear-gradient(40deg, #35345b, #35345b 20px, #e80041 10px, #e80041 50px);
   mix-blend-mode: difference;
   filter: opacity(0.4);
