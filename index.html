@@ -66,6 +66,22 @@
     </nav>
   </header>
   <main>
+
+    <div id="overlay">
+      <div id="popup">
+        <div id="close">X</div>
+
+        <p>
+          Simplon.co Ardennes <br>
+          CCI ARDENNES <br>
+          18A AVENUE GEORGES CORNEAU <br>
+          CS 60044 <br>
+          08004 CHARLEVILLE MEZIERES CEDEX <br>
+          Tél. 03 24 56 62 62
+
+        </p>
+      </div>
+    </div>
     <ul class="sidenav" id="mobile-demo">
       <li><a href="#">Apprendre</a></li>
       <li><a href="#">Proposer un projet</a></li>
@@ -74,7 +90,9 @@
       <li><a href="#">Nos Projets et Cours</a></li>
     </ul>
     <div class="row">
-      <div class="simplon-nav"><p>SIMPLON.CO</p></div>
+      <div class="simplon-nav">
+        <p>SIMPLON.CO</p>
+      </div>
       <div id="row1" class="col s12 m6 l3">
         <a href="#row2"><i class="waves-effect waves-light fas fa-arrow-down smooth"></i></a>
         <div class="row1-cover"></div>
@@ -131,12 +149,14 @@
             <li><a class="btn-floating blue"><i class="fab fa-linkedin"></i></a></li>
             <li><a class="btn-floating blue"><i class="fab fa-twitter"></i></a></li>
             <li><a class="btn-floating deep-orange accent-3"><i class="fab fa-google-plus"></i></a></li>
+            <li><a class="btn-floating" id="trigger"><i class="far fa-address-card"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
   </main>
   <footer>
+
     <div class="footer-copyright">
       <div class="container">
         <p>
@@ -149,6 +169,7 @@
     </div>
   </footer>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script type="text/javascript" src="Simplon/js/app.js"></script>
 </body>
