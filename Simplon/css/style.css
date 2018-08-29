@@ -223,7 +223,7 @@ html {
 
 #row1 {
   position: relative;
-  background-image: url("../img/image1.jpg");
+  background-image: url("../img/ordinateur_doigt.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -236,7 +236,7 @@ html {
 
 #row2 {
   position: relative;
-  background-image: url("../img/image2.jpg");
+  background-image: url("../img/ligne_code.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -249,7 +249,7 @@ html {
 
 #row3 {
   position: relative;
-  background-image: url("../img/image3.jpg");
+  background-image: url("../img/ordiportable.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -262,7 +262,7 @@ html {
 
 #row4 {
   position: relative;
-  background-image: url("../img/image4.jpg");
+  background-image: url("../img/ordireseau.jpg");
   background-position: center;
   background-size: cover;
 }
