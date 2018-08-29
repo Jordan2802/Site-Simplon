@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /recherche.php/
+Sitemap: <lien url=http://simplon-charleville.fr/ftp-solo/jordan-nicolas/jordan/simplon/Site-Simplon//sitemap.xml>
+http://simplon-charleville.fr/ftp-solo/jordan-nicolas/jordan/simplon/Site-Simplon//sitemap.xml</lien>
