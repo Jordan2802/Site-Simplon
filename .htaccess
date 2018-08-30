@@ -1,3 +1,4 @@
 DirectoryIndex index.php index.html /erreurs/erreur_403.php
 
 #RewriteCond %{HTTP_HOST} ^simplon-charleville$ #RewriteRule ^(.*) http://www.simplon-charleville.com/$1 [QSA,L,R=301]
+Redirect "/index" " "www.simplon-charleville.fr/ftp-solo/jordan-nicolas/jordan/simplon/Site-Simplon/"
